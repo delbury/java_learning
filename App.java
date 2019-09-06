@@ -2,22 +2,22 @@ import cat.*;
 public class App {
 
   public static void main(String[] args) {
-    /**
-     * types (bits):
-     * byte, 8 | short, 16 | int, 32 | long, 64 | float, 32 | double, 64
-     * boolean, depends on JVM | char, 16
-     * 
-     * examples:
-     * int x = 123;
-     * byte b = 89;
-     * boolean isFun = true
-     */
-    Dog dog = new Dog();
-    dog.size = 233;
-    dog.bark();
+    // Dog dog = new Dog();
+    // dog.size = 233;
+    // dog.bark();
 
-    Cat cat = new Cat();
-    cat.bark();
+    // Cat cat = new Cat();
+    // cat.bark();
+
+    // Dog bd = new BigDog();
+    // bd.bark();
+    Dog dogs[] = new Dog[5];
+    for(int i = 0; i < dogs.length; i++) {
+      dogs[i] = new Dog();
+    }
   }
 }
 
+class BigDog extends Dog {
+
+}
