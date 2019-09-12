@@ -13,4 +13,8 @@ public class Dog {
   public int getSize() {
     return size;
   }
+
+  public static void st() {
+    System.out.println("parent");
+  }
 }
