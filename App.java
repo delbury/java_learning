@@ -56,6 +56,7 @@ class BigDog extends Dog {
   public static void st() {
     System.out.println("child");
     // Collections.sort(new String[]{"1", "2", "3"}, (s1, s2) -> s1.compareTo(s2));
+    String st = "123" + 2333;
   }
 }
 
